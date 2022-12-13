@@ -1,0 +1,57 @@
+.container {
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .textInput {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: block;
+}
+
+.container p span {
+    color: var(--primary-color);
+    font-style: italic;
+}
+
+.container input[type=text] {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+    font-size: 1.1rem;
+    margin: 20px 0;
+}
+
+.container input[type=text]:focus {
+    outline: 2px solid var(--primary-color);
+}
+
+.container button {
+    padding: 10px 40px;
+    border: 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    background: var(--primary-color);
+    font-weight: 500;
+    color: white;
+}
+
+.container button:hover {
+    background: var(--primary-dark-color);
+    cursor: pointer;
+}

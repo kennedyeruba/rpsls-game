@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+}
+
+.container .buttonContainer button {
+    padding: 10px 20px;
+    border: 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    background: var(--primary-color);
+    font-weight: 500;
+    color: white;
+    width: 100%;
+}
+
+.container .buttonContainer button:first-child {
+    margin-bottom: 20px;
+}
+
+.container .buttonContainer button:hover {
+    background: var(--primary-dark-color);
+    cursor: pointer;
+}
